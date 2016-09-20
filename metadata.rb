@@ -4,7 +4,7 @@ maintainer_email "simon@widgit.com"
 license          "Apache 2.0"
 description      "Installs/Configures rsyslog streaming into Papertrail"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          "1.2.0"
+version          "1.2.1"
 supports 'ubuntu', ">= 12.04"
 
 depends "rsyslog", "~> 4.0.1"
